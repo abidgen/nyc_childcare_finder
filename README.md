@@ -38,7 +38,7 @@ flowchart TD
     F --> G[Campare Two facilities]
     G --> H[Detaled info of facilities] & I[Inspection results]
     
-    style A B fill:#f9f,stroke:#333,stroke-width:1px,,color:#000
+    style A B fill:#f9f,stroke:#333,stroke-width:1px,color:#000
 
 ```
 
