@@ -189,7 +189,7 @@ if st.session_state['btn']:
             key=2,
             )
         with col3:
-            st.write('Compare Selected two Choldcare facilities')
+            st.write('Compare Selected two Childcare facilities')
             compare = st.button(label="Compare")
 
         data_c = data_f[data_f['ID_Name'].isin([f_chioce,s_choice])][['Day Care ID', 'Coordinates', 'Center Name',
