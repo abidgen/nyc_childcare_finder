@@ -33,7 +33,7 @@ Initial data were collected from the [NYC Open Data](https://opendata.cityofnewy
 flowchart TD
     A[Identify Route]:::process --> B[Determine Search Area]:::process
     B --> C[Identify Facilities within Search Area]:::process
-    C --> D[Filter Facilities]:::process
+    C --> D[Filter Facilities based on facility characteristics]:::process
     D --> E[Plot on Map]:::result
     D --> F[List of Facilities]:::result
     F --> G[Compare two facilities]:::process
