@@ -12,7 +12,7 @@ Using the Web app, users can quickly identify all the childcare facilities locat
 
 ## Project
 ### Data
-Initial data were collected from [NYC Open Data](https://opendata.cityofnewyork.us/ ) web portal. This specific dataset is titled ["DOHMH Childcare Center Inspections"](https://data.cityofnewyork.us/Health/DOHMH-Childcare-Center-Inspections/dsg6-ifza ), contains information regarding all childcare facilities located in New York City. In addition, this dataset contains a list of all inspections conducted by the New York City Department of Health and Mental Hygiene (NYC DOHMH) and any associated violations at active, city-regulated, center-based child care programs and summer camps over the past three years. The violations are pre-adjudicated.
+Initial data were collected from the [NYC Open Data](https://opendata.cityofnewyork.us/ ) web portal. This specific dataset, titled ["DOHMH Childcare Center Inspections"](https://data.cityofnewyork.us/Health/DOHMH-Childcare-Center-Inspections/dsg6-ifza ), contains information regarding all childcare facilities in New York City. In addition, this dataset contains a list of all inspections conducted by the New York City Department of Health and Mental Hygiene (NYC DOHMH) and any associated violations at active, city-regulated, centre-based child care programs and summer camps over the past three years. The violations are pre-adjudicated.
 
 ### Data processing
 *	All data were aggregated to get results for each specific facility.
@@ -32,11 +32,11 @@ Initial data were collected from [NYC Open Data](https://opendata.cityofnewyork.
 ```mermaid
 flowchart TD
     A[Identify Route]:::process --> B[Determine Search Area]:::process
-    B --> C[Identify Facilities within Search Aear]:::process
+    B --> C[Identify Facilities within Search Area]:::process
     C --> D[Filter Facilities]:::process
     D --> E[Plot on Map]:::result
     D --> F[List of Facilities]:::result
-    F --> G[Campare Two facilities]:::process
+    F --> G[Compare two facilities]:::process
     G --> H[Detailed info of facilities]:::result 
     G --> I[Inspection results]:::result
     
