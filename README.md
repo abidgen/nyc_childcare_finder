@@ -31,8 +31,8 @@ Initial data were collected from [NYC Open Data](https://opendata.cityofnewyork.
 
 ```mermaid
 graph TD;
-    Identify Route --> Determine Search Area;
-    Determine Search Area --> Identify Facilities within Search Aear;
+    Identify Route-->Determine Search Area;
+    Determine Search Area-->Identify Facilities within Search Aear;
     B-->D;
     C-->D;
 ```
