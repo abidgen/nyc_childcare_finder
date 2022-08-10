@@ -41,7 +41,7 @@ flowchart TD
     G --> I[Inspection results]:::result
     
     classDef process fill:#6fa8dc,stroke:#000,stroke-width:1px,color:#000;
-    classDef process fill:#b2f495,stroke:#000,stroke-width:1px,color:#000;
+    classDef result fill:#b2f495,stroke:#000,stroke-width:1px,color:#000;
 
 ```
 
