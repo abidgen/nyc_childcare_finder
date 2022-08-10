@@ -33,8 +33,8 @@ Initial data were collected from [NYC Open Data](https://opendata.cityofnewyork.
 flowchart TD
     A[Identify Route] --> B[Determine Search Area]
     B --> C[Identify Facilities within Search Aear]
-    C --> D[Rethink]
-    D --> B
+    C --> D[Filter Facilities]
+    D --> E{Plot on Map} & F{List of Facilities}
     B ---->|No| E[End]
 ```
 
