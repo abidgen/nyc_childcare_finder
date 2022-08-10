@@ -42,7 +42,7 @@ flowchart TD
 
 ```
 
-```
+```mermaid
 flowchart LR
     A:::someclass [abid]--> B
     classDef someclass fill:#f96;
