@@ -28,4 +28,4 @@ Initial data were collected from [NYC Open Data](https://opendata.cityofnewyork.
 * Filter selected facilities based on user preferences.
 * Plot route and search area and filtered facilities on google maps using [gmaps](https://jupyter-gmaps.readthedocs.io/en/latest/ ). 
 * Provide a list of filtered facilities in descending order based on safety score. 
-* The Web App was developed using [treamlit](ttps://docs.streamlit.io/) framework.
+* The Web App was developed using [Streamlit](https://docs.streamlit.io/) framework.
