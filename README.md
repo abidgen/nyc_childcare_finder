@@ -13,3 +13,11 @@ Using the Web app, users can quickly identify all the childcare facilities locat
 
 ## Project
 ### Data
+Initial data were collected from [NYC Open Data](https://opendata.cityofnewyork.us/ ) web portal. This specific dataset is titled ["DOHMH Childcare Center Inspections"](https://data.cityofnewyork.us/Health/DOHMH-Childcare-Center-Inspections/dsg6-ifza ), contains information regarding all childcare facilities located in New York City. In addition, this dataset contains a list of all inspections conducted by the New York City Department of Health and Mental Hygiene (NYC DOHMH) and any associated violations at active, city-regulated, center-based child care programs and summer camps over the past three years. The violations are pre-adjudicated.
+
+### Data processing:
+•	All data were aggregated to get results for each specific facility.
+•	Google Geocoding API was used to identify GPS coordinates of all facilities. 
+•	A scoring algorithm was applied to determine the safety score for all facilities
+•	All data were combined in one file for the app.
+
