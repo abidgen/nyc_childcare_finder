@@ -37,7 +37,7 @@ flowchart TD
     D --> E[Plot on Map]:::result
     D --> F[List of Facilities]:::result
     F --> G[Campare Two facilities]:::process
-    G --> H[Detaled info of facilities]:::result 
+    G --> H[Detailed info of facilities]:::result 
     G --> I[Inspection results]:::result
     
     classDef process fill:#6fa8dc,stroke:#000,stroke-width:1px,color:#000;
