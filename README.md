@@ -35,7 +35,7 @@ flowchart TD
     B --> C[Identify Facilities within Search Aear]
     C --> D[Filter Facilities]
     D --> E{Plot on Map} & F{List of Facilities}
-    B ---->|No| E[End]
+    B ---->G[End]
 ```
 
 
