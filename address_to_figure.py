@@ -17,11 +17,11 @@ import collections
 import streamlit as st
 collections.Iterable = collections.abc.Iterable
 
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import os
 
 
-load_dotenv()
+#load_dotenv()
 
 # from retrying import retry
 @st.experimental_singleton
