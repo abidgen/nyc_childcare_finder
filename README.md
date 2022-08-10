@@ -29,6 +29,17 @@ Initial data were collected from [NYC Open Data](https://opendata.cityofnewyork.
 * Provide a list of filtered facilities in descending order based on safety score. 
 * The Web App was developed using [Streamlit](https://docs.streamlit.io/) framework.
 
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+
+
+
 ## Deliverables
 * Source Code: [GitHub](https://github.com/abidgen/nyc_childcare_finder )
 * Web App: [NYC Childcare Finder](https://abidgen-nyc-childcare-finder-childcare-app-99xm7h.streamlitapp.com/ )
