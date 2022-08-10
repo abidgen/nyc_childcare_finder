@@ -23,9 +23,13 @@ Initial data were collected from [NYC Open Data](https://opendata.cityofnewyork.
 
 ### Web App working model
 *	Identify the route from the user's home address to the work address using [Google Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview ) and [Google Directions API](https://developers.google.com/maps/documentation/directions/overview ).
-*Use [shapely](https://shapely.readthedocs.io/en/stable/manual.html ) to determine the search area along the route or user location
+* Use [shapely](https://shapely.readthedocs.io/en/stable/manual.html ) to determine the search area along the route or user location
 * Identify facilities that fall inside the search area.
 * Filter selected facilities based on user preferences.
-* Plot route and search area and filtered facilities on google maps using [gmaps](https://jupyter-gmaps.readthedocs.io/en/latest/ ). 
+* Plot route, search area and filtered facilities on google maps using [gmaps](https://jupyter-gmaps.readthedocs.io/en/latest/ ). 
 * Provide a list of filtered facilities in descending order based on safety score. 
 * The Web App was developed using [Streamlit](https://docs.streamlit.io/) framework.
+
+## Deliverables
+* Source Code: [GitHub](https://github.com/abidgen/nyc_childcare_finder )
+* Web App: [NYC Childcare Finder](https://abidgen-nyc-childcare-finder-childcare-app-99xm7h.streamlitapp.com/ )
