@@ -185,7 +185,7 @@ def filter_data(data, child_care_type , age_range_type, max_capacity_type, total
 
     return data_f.reset_index().drop('index',axis=1) , _points , _polygon
 
-@st.cache
+@st.experimental_memo
 def make_map_figure(filtered_data, _points, _polygon, home=None, work=None):
     figure_layout = {
         'width': 'auto',
@@ -239,7 +239,7 @@ def make_map_figure(filtered_data, _points, _polygon, home=None, work=None):
 
 
 
-@st.cache
+@st.experimental_memo
 def make_map_figure_2(filtered_data, _points, _polygon, home=None, work=None):
     figure_layout = {
         'width': 'auto',
