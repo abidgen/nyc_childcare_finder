@@ -31,23 +31,18 @@ Initial data were collected from [NYC Open Data](https://opendata.cityofnewyork.
 
 ```mermaid
 flowchart TD
-    A[Identify Route] --> B[Determine Search Area]
-    B --> C[Identify Facilities within Search Aear]
-    C --> D[Filter Facilities]
-    D --> E[Plot on Map] & F[List of Facilities]
-    F --> G[Campare Two facilities]
-    G --> H[Detaled info of facilities] & I[Inspection results]
+    A[Identify Route]:::process --> B[Determine Search Area]:::process
+    B --> C[Identify Facilities within Search Aear]:::process
+    C --> D[Filter Facilities]:::process
+    D --> E[Plot on Map]:::result & F[List of Facilities]:::result
+    F --> G[Campare Two facilities]:::process
+    G --> H[Detaled info of facilities]:::result & I[Inspection results]:::result
     
-    style A B fill:#f9f,stroke:#333,stroke-width:1px,color:#000
+    classDef process fill:#6fa8dc,stroke:#000,stroke-width:1px,color:#000;
+    classDef process fill:#b2f495,stroke:#000,stroke-width:1px,color:#000;
 
 ```
 
-```mermaid
-flowchart LR
-    A[abid]:::someclass--> B
-    classDef someclass fill:#f96;
-
-```
 
 
 ## Deliverables
