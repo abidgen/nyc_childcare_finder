@@ -34,11 +34,12 @@ flowchart TD
     A[Identify Route] --> B[Determine Search Area]
     B --> C[Identify Facilities within Search Aear]
     C --> D[Filter Facilities]
-    D --> E:::result[Plot on Map] & F:::result[List of Facilities]
+    D --> E[Plot on Map] & F[List of Facilities]
     F --> G[Campare Two facilities]
-    G --> H:::result[Detaled info of facilities] & I:::result[Inspection results]
+    G --> H[Detaled info of facilities] & I[Inspection results]
     
-    classDef result fill:#b3e59d;
+    style A fill:#f9f,stroke:#333,stroke-width:4px
+
 ```
 
 
